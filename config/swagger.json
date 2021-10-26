@@ -9,7 +9,7 @@
     "basePath": "/v1",
     "tags": [
         {
-            "name": "doctor",
+            "name": "species",
             "description": "information about a doctor"
         }
     ],
@@ -21,7 +21,7 @@
         "/series/{id}": {
             "get": {
                 "tags": [
-                    "doctor"
+                    "species"
                 ],
                 "summary": "get information about a doctor",
                 "operationId": "getDoctor",
