@@ -1,6 +1,6 @@
 'use strict';
-var dataProvider = require('../../data/doctor/{id}.js');
-var data = require('../../data/doctor/info.js');
+var dataProvider = require('../../data/species/{id}.js');
+var data = require('../../data/species/info.js');
 /**
  * Operations on /doctor/{id}
  */
