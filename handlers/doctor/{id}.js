@@ -13,7 +13,7 @@ module.exports = {
      * responses: 200, 405
      */
     get: function getDoctor(req, res, next) {
-        let docResult = data.doctor.find(record => record.id == req.params.id);
+        let docResult = data.species.find(record => record.id == req.params.id);
         console.log(docResult);
         if (docResult) {
           res.send(docResult);
