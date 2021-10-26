@@ -47,7 +47,7 @@
                         "schema": {
                             "type": "object",
                             "items": {
-                                "$ref": "#/definitions/Doctor"
+                                "$ref": "#/definitions/species"
                             }
                         }
                     },
@@ -65,7 +65,7 @@
         }
     },
     "definitions": {
-        "Doctor": {
+        "species": {
             "properties": {
                 "id": {
                     "type": "integer",
