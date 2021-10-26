@@ -18,7 +18,7 @@
         "https"
     ],
     "paths": {
-        "/doctor/{id}": {
+        "/series/{id}": {
             "get": {
                 "tags": [
                     "doctor"
