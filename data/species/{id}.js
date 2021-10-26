@@ -19,7 +19,7 @@ module.exports = {
              * Replace this by actual data for the api.
              */
             Mockgen().responses({
-                path: '/doctor/{id}',
+                path: '/species/{id}',
                 operation: 'get',
                 response: '200'
             }, callback);
@@ -30,7 +30,7 @@ module.exports = {
              * Replace this by actual data for the api.
              */
             Mockgen().responses({
-                path: '/doctor/{id}',
+                path: '/species/{id}',
                 operation: 'get',
                 response: '405'
             }, callback);
