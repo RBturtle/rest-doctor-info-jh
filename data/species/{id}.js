@@ -1,16 +1,16 @@
 'use strict';
 var Mockgen = require('../mockgen.js');
 /**
- * Operations on /doctor/{id}
+ * Operations on /turtle_species/{id}
  */
 module.exports = {
     /**
-     * summary: get information about a doctor
+     * summary: get information about a turtle_species
      * description: 
      * parameters: id
      * produces: application/json
      * responses: 200, 405
-     * operationId: getDoctor
+     * operationId: getturtle_species
      */
     get: {
         200: function (req, res, callback) {
@@ -19,7 +19,7 @@ module.exports = {
              * Replace this by actual data for the api.
              */
             Mockgen().responses({
-                path: '/species/{id}',
+                path: '/turtle_species/{id}',
                 operation: 'get',
                 response: '200'
             }, callback);
@@ -30,7 +30,7 @@ module.exports = {
              * Replace this by actual data for the api.
              */
             Mockgen().responses({
-                path: '/species/{id}',
+                path: '/turtle_species/{id}',
                 operation: 'get',
                 response: '405'
             }, callback);

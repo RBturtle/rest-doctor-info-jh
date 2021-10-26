@@ -1,12 +1,12 @@
 {
-    "name": "doctor-info",
-    "description": "provides information about a given doctor",
+    "name": "turtle_species-info",
+    "description": "provides information about a given turtle_species",
     "version": "1.0.0",
     "author": "Josh Gould <josh_gould@manulife.com>",
     "contributors": [],
     "repository": {
         "type": "git",
-        "url": "ssh://git@git.platform.manulife.io:2222/mu-coaches/doctor-info.git"
+        "url": "ssh://git@git.platform.manulife.io:2222/mu-coaches/turtle_species-info.git"
     },
     "private": true,
     "dependencies": {

@@ -1,5 +1,5 @@
 module.exports = {
-  species: [
+  turtle_species: [
     {
       id: "1",
       name: "Frank Waiton",

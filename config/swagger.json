@@ -1,16 +1,16 @@
 {
     "swagger": "2.0",
     "info": {
-        "description": "A simple RESTful API for doctor information",
+        "description": "A simple RESTful API for turle_turtle_species information",
         "version": "1.0.0",
-        "title": "Doctor Info"
+        "title": "turtle_species Info"
     },
-    "host": "doctor-info.apps.cac.preview.pcf.manulife.com",
+    "host": "turtle_species-info.apps.cac.preview.pcf.manulife.com",
     "basePath": "/v1",
     "tags": [
         {
-            "name": "species",
-            "description": "information about a doctor"
+            "name": "turtle_species",
+            "description": "information about a turtle_species"
         }
     ],
     "schemes": [
@@ -18,13 +18,13 @@
         "https"
     ],
     "paths": {
-        "/species/{id}": {
+        "/turtle_species/{id}": {
             "get": {
                 "tags": [
-                    "species"
+                    "turtle_species"
                 ],
-                "summary": "get information about a doctor",
-                "operationId": "getDoctor",
+                "summary": "get information about a turtle_species",
+                "operationId": "getturtle_species",
                 "consumes": [
                     "application/json"
                 ],
@@ -35,7 +35,7 @@
                     {
                         "name": "id",
                         "in": "path",
-                        "description": "ID of the doctor to retrieve",
+                        "description": "ID of the turtle_species to retrieve",
                         "required": true,
                         "type": "integer",
                         "format": "Int64"
@@ -43,11 +43,11 @@
                 ],
                 "responses": {
                     "200": {
-                        "description": "The doctor with the given ID",
+                        "description": "The turtle_species with the given ID",
                         "schema": {
                             "type": "object",
                             "items": {
-                                "$ref": "#/definitions/species"
+                                "$ref": "#/definitions/turtle_species"
                             }
                         }
                     },
@@ -65,7 +65,7 @@
         }
     },
     "definitions": {
-        "species": {
+        "turtle_species": {
             "properties": {
                 "id": {
                     "type": "integer",

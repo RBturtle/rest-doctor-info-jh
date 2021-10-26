@@ -1,4 +1,4 @@
-# doctor-info
+# turtle_species-info
 
 ## local setup
 Requires nodemon to be install globally:

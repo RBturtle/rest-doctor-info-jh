@@ -1,5 +1,5 @@
 applications:
-- name: doctor-info
+- name: turtle_species-info
   memory: 128M
   disk_quota: 128M
   instances: 1
@@ -8,4 +8,4 @@ applications:
   - nodejs_buildpack
   stack: cflinuxfs3
   env:
-    API_HOST: doctor-info.apps.cac.preview.pcf.manulife.com
+    API_HOST: turtle_species-info.apps.cac.preview.pcf.manulife.com
