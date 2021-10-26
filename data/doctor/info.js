@@ -1,5 +1,5 @@
 module.exports = {
-  doctor: [
+  species: [
     {
       id: "1",
       name: "Frank Waiton",
