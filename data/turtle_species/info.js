@@ -2,7 +2,7 @@ module.exports = {
   turtle_species: [
     {
       id: "1",
-      name: "Frank Waiton",
+      name: "Eunotosaurus africanus",
       dob: "1967-07-21",
       specialty: "Cardiology",
       address: {
