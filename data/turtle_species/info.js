@@ -2,7 +2,7 @@ module.exports = {
   turtle_species: [
     {
       id: "1",
-      name: "Eunotosaurus africanus",
+      scientific_name: "Eunotosaurus africanus",
       dob: "1967-07-21",
       specialty: "Cardiology",
       address: {
@@ -14,7 +14,7 @@ module.exports = {
     },
     {
       id: "2",
-      name: "Phil Mckenzie",
+      scientific_name: "Phil Mckenzie",
       dob: "1967-01-12",
       specialty: "Gastroenterology",
       address: {
@@ -26,7 +26,7 @@ module.exports = {
     },
     {
       id: "3",
-      name: "Jen Frye",
+      scientific_name: "Jen Frye",
       dob: "1969-03-21",
       specialty: "Urology",
       address: {
@@ -38,7 +38,7 @@ module.exports = {
     },
     {
       id: "4",
-      name: "Craig Helbling",
+      scientific_name: "Craig Helbling",
       dob: "1970-07-21",
       specialty: "Dermatology",
       address: {
@@ -50,7 +50,7 @@ module.exports = {
     },
     {
       id: "5",
-      name: "Karen Macarthur",
+      scientific_name: "Karen Macarthur",
       dob: "1971-02-24",
       specialty: "Family",
       address: {
@@ -62,7 +62,7 @@ module.exports = {
     },
     {
       id: "6",
-      name: "Alan Gurniak",
+      scientific_name: "Alan Gurniak",
       dob: "1970-01-21",
       specialty: "Oncology",
       address: {
@@ -74,7 +74,7 @@ module.exports = {
     },
     {
       id: "7",
-      name: "Jose Herrera",
+      scientific_name: "Jose Herrera",
       dob: "1971-06-21",
       specialty: "Neurology",
       address: {
@@ -86,7 +86,7 @@ module.exports = {
     },
     {
       id: "8",
-      name: "Robert Mcsweeney",
+      scientific_name: "Robert Mcsweeney",
       dob: "1968-08-22",
       specialty: "Family",
       address: {
@@ -98,7 +98,7 @@ module.exports = {
     },
     {
       id: "9",
-      name: "Rosalina Guerriero",
+      scientific_name: "Rosalina Guerriero",
       dob: "1972-07-21",
       specialty: "Pediatrics",
       address: {
@@ -110,7 +110,7 @@ module.exports = {
     },
     {
       id: "10",
-      name: "Tim Olsen",
+      scientific_name: "Tim Olsen",
       dob: "1970-11-11",
       specialty: "Opthalmology",
       address: {
