@@ -9,7 +9,7 @@
     "basePath": "/v1",
     "tags": [
         {
-            "scientific_name": "turtle_species",
+            "name": "turtle_species",
             "description": "information about a turtle_species"
         }
     ],
@@ -33,7 +33,7 @@
                 ],
                 "parameters": [
                     {
-                        "scientific_name": "id",
+                        "name": "id",
                         "in": "path",
                         "description": "ID of the turtle_species to retrieve",
                         "required": true,
@@ -71,7 +71,7 @@
                     "type": "integer",
                     "format": "Int64"
                 },
-                "scientific_name": {
+                "name": {
                     "type": "string"
                 },
                 "dob": {
