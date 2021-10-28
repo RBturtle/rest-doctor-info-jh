@@ -33,7 +33,7 @@
                 ],
                 "parameters": [
                     {
-                        "scientific_name": "id",
+                        "name": "id",
                         "in": "path",
                         "description": "ID of the turtle_species to retrieve",
                         "required": true,
