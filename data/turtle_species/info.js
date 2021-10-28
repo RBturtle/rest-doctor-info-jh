@@ -5,6 +5,7 @@ module.exports = {
       scientific_name: "Eunotosaurus africanus",
       family_ancestor: "Unknown",
       interesting_fact: "this is the earliest known turtle species",
+      lived_year: "260 million years ago", 
       edible_food: {
         edible_1: "unknown",
         edible_2: "unknown",
@@ -17,6 +18,7 @@ module.exports = {
       scientific_name: "Odontochelys semitestacea",
       family_ancestor: "Unknown",
       interesting_fact: "requires further research",
+      lived_year: "220 million years ago", 
       edible_food: {
         edible_1: "unknown due to extinction",
         edible_2: "unknown due to extinction",
@@ -29,6 +31,7 @@ module.exports = {
       scientific_name: "Proganochelys guenstedi",
       family_ancestor: "Unknown",
       interesting_fact: "requires further research",
+      lived_year: "210 million years ago", 
       edible_food: {
         edible_1: "unknown due to extinction",
         edible_2: "unknown due to extinction",
@@ -41,6 +44,7 @@ module.exports = {
       scientific_name: "Santanachelys gaffneyi",
       family_ancestor: "Unknown",
       interesting_fact: "the oldest sea turtle (the one with longest life span?)",
+      lived_year: "mid-Cretaceous", 
       edible_food: {
         edible_1: "unknown due to extinction",
         edible_2: "unknown due to extinction",
@@ -53,6 +57,7 @@ module.exports = {
       scientific_name: "Archelon ischyros",
       family_ancestor: "Unknown",
       interesting_fact: "the largest sea turtle",
+      lived_year: "late-Cretaceous", 
       edible_food: {
         edible_1: "unknown due to extinction",
         edible_2: "unknown due to extinction",
@@ -65,6 +70,7 @@ module.exports = {
       scientific_name: "Eretmochellys imbricata",
       family_ancestor: "Cheloniidae",
       interesting_fact: "endangered species",
+      lived_year: "modern",
       edible_food: {
         edible_1: "sea sponge",
         edible_2: "algae",
@@ -77,6 +83,7 @@ module.exports = {
       scientific_name: "Chelonia mydas",
       family_ancestor: "Cehloniidae",
       interesting_fact: "extremely endangered species",
+      lived_year: "modern", 
       edible_food: {
         edible_1: "algae",
         edible_2: "seagrass",
@@ -89,6 +96,7 @@ module.exports = {
       scientific_name: "Lepidochelys olivacea",
       family_ancestor: "Cheloniidae",
       interesting_fact: "relatively endangered species",
+      lived_year: "modern", 
       edible_food: {
         edible_1: "crab",
         edible_2: "jelly fish",
@@ -101,6 +109,7 @@ module.exports = {
       scientific_name: "Natator depressus",
       family_ancestor: "Cheloniidae",
       interesting_fact: "its shell has a flattened or lower dome than other sea turtles",
+      lived_year: "modern",  
       edible_food: {
         edible_1: "jellyfish",
         edible_2: "coral",
@@ -113,6 +122,7 @@ module.exports = {
       scientific_name: "Caretta caretta",
       family_ancestor: "Cheloniidae",
       interesting_fact: "largest species weigh more than 450 kg",
+      lived_year: "modern", 
       edible_food: {
         edible_1: "crab",
         edible_2: "conch",
@@ -125,6 +135,7 @@ module.exports = {
       scientific_name: "Dermochellys coriacea",
       family_ancestor: "Dermochelyidae",
       interesting_fact: "heaviest non crocodilan animal",
+      lived_year: "modern",   
       edible_food: {
         edible_1: "jellyfish",
         edible_2: "seasquirts",
