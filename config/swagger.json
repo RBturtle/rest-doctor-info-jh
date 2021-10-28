@@ -81,6 +81,9 @@
                 "interesting_fact": {
                     "type": "string"
                 },
+                "lived_year": {
+                    "type": "string"
+                },
                 "edible_food": {
                     "properties": {
                         "edible_1": {
