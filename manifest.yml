@@ -1,5 +1,5 @@
 applications:
-- name: turtle_species-info
+- scientific_name: turtle_species-info
   memory: 128M
   disk_quota: 128M
   instances: 1

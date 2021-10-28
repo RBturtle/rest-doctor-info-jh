@@ -1,5 +1,5 @@
 {
-    "name": "turtle_species-info",
+    "scientific_name": "turtle_species-info",
     "description": "provides information about a given turtle_species",
     "version": "1.0.0",
     "author": "Josh Gould <josh_gould@manulife.com>",
