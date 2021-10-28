@@ -9,7 +9,7 @@
     "basePath": "/v1",
     "tags": [
         {
-            "scientific_name": "turtle_species",
+            "name": "turtle_species",
             "description": "information about a turtle_species"
         }
     ],
