@@ -74,25 +74,25 @@
                 "scientific_name": {
                     "type": "string"
                 },
-                "dob": {
+                "family_ancestor": {
                     "type": "string",
                     "format": "date"
                 },
-                "specialty": {
+                "interesting_fact": {
                     "type": "string"
                 },
-                "address": {
+                "edible_food": {
                     "properties": {
-                        "street": {
+                        "edible_1": {
                             "type": "string"
                         },
-                        "city": {
+                        "edible_2": {
                             "type": "string"
                         },
-                        "province": {
+                        "edible_3": {
                             "type": "string"
                         },
-                        "postal_code": {
+                        "edible_4": {
                             "type": "string"
                         }
                     }
