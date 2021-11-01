@@ -21,12 +21,12 @@ App.use(BodyParser.urlencoded({
 App.use(Cors());
 
 App.use(Swaggerize({
-    api: Path.resolve('./config/swaggerUi-Turtles.json'),
+    api: Path.resolve('./config/swagger.json'),
     handlers: Path.resolve('./handlers')
 }));
 
 App.use('/api-docs', function (req, res) {
-    res.json(require('./config/swaggerUi-Turtles.json'));
+    res.json(require('./config/swagger.json'));
 });
 
 App.use('/docs', SwaggerUi({
